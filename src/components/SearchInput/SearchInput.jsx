@@ -7,7 +7,7 @@ export const SearchInput = () => {
       <Search className={styles["search-icon"]} color="#9b9ea1" size="20px" />
       <input
         type="search"
-        placeholder="Enter restaurant name"
+        placeholder="Enter restaurant name..."
         className={styles["search-input"]}
       />
     </div>
