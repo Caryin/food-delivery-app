@@ -1,14 +1,15 @@
 import styles from "./SearchInput.module.css";
-import { Search } from "lucide-react";
+import { IconSearch } from "@tabler/icons-react";
 
-export const SearchInput = () => {
+export const SearchInput = ({ onChange }) => {
   return (
-    <div className={styles["search-box"]}>
-      <Search className={styles["search-icon"]} color="#9b9ea1" size="20px" />
+    <div className={styles.searchBox}>
+      <IconSearch className={styles.searchIcon} color="#9b9ea1" size="20px" />
       <input
         type="search"
         placeholder="Enter restaurant name..."
-        className={styles["search-input"]}
+        className={styles.searchInput}
+        onChange={onChange}
       />
     </div>
   );

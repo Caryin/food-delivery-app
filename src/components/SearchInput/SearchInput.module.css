@@ -1,15 +1,15 @@
-.search-box {
+.searchBox {
   position: relative;
   display: flex;
   align-items: center;
 }
 
-.search-icon {
+.searchIcon {
   position: absolute;
   left: 15px;
 }
 
-.search-input {
+.searchInput {
   background-color: #fff;
   border: solid 1px #eeeeef;
   border-radius: 10px;
@@ -17,6 +17,6 @@
   width: 300px;
 }
 
-.search-input::placeholder {
+.searchInput::placeholder {
   color: #9b9ea1;
 }

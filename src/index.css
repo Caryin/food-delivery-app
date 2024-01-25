@@ -1,8 +1,21 @@
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
   background-color: #f7f8fa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6,
+span,
+a,
+li,
+button,
+p {
+  color: #424349;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }

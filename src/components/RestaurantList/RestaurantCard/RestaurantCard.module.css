@@ -1,0 +1,78 @@
+.promoTag {
+  position: absolute;
+  width: 46px;
+  height: 26px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promoTag svg {
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+
+.promoTag span {
+  color: white;
+  font-size: 13px;
+}
+
+.discount {
+  background-color: #f6696f;
+}
+
+.onePlusOne {
+  background-color: #8f64ff;
+}
+
+.gift {
+  background-color: #3eb1ff;
+}
+
+.coverImage {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.cardDetails {
+  padding: 12px 15px 16px 15px;
+  background-color: #fff;
+}
+
+.cardDetails p {
+  font-size: 13.5px;
+  color: rgb(66, 67, 73);
+  font-weight: 600;
+  margin: 0px 0px 14px 0;
+}
+
+.infoRow {
+  display: flex;
+  gap: 8px;
+}
+
+.rating,
+.cookingTime,
+.new {
+  background-color: #e8ebf2d1;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating svg {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  color: #676567;
+}
+
+.new {
+  color: rgb(38, 182, 162);
+}
